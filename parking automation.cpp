@@ -24,7 +24,7 @@ using namespace std;
 
  car[MAX];
  class otopark {
- pýblic:
+ pÃ½blic:
 
 	 string gorevli_id, gorevli sifre;
 	 int i, gelir;
@@ -113,7 +113,7 @@ using namespace std;
 
 			 if (car[j].plaka == plka) {
 
-				 sure = difftime(cikis, araba[j].giris);
+				 sure = difftime(cikis, car[j].giris);
 				 for (k = j; k <= i; k++) {
 
 					 car[k] = car[k + 1];
